@@ -1,0 +1,60 @@
+body {
+  background-color: #123B62 !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, ol{
+  color: white !important;
+}
+
+a {
+  text-decoration: none;
+}
+.card {
+  background-color: #123B62 !important;
+  border: 1px solid white !important;
+}
+
+#profile-wrapper {
+  text-align: center;
+}
+
+#profile-pic {
+  max-width:100%;
+  display: block;
+  height:auto;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  align-self: flex-end;
+}
+
+.social-links ul, li {
+  list-style-type: none;
+  display: inline-block;
+}
+.social {
+  width: 5rem;
+  height: 5rem;
+}
+
+.features {
+  font-style: italic;
+}
+.seminars {
+  padding: 0
+  align-self: flex-start !important;
+  color: white !important;
+}
+.seminars > li
+{
+  padding-bottom: 1rem;
+  text-transform: capitalize;
+}
+.intro {
+  height: 50rem;
+}
